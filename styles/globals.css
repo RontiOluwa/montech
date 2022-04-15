@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,500&family=Lato&family=Manrope&family=Montserrat:wght@400;500&family=Poppins:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: "Manrope", sans-serif; */
 }
 
 a {
@@ -13,4 +18,43 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.chess-bg {
+  background-image: url("../public/chess-bg.svg");
+}
+
+.layer {
+  background-color: rgb(229 229 229 / 98%);
+}
+
+.p-inherit {
+  position: inherit;
+}
+
+.light-grey-color {
+  color: #717171;
+}
+.light-blue-color {
+  color: #438ffe;
+}
+
+.light-blue-bg {
+  background-color: #438ffe;
+}
+
+.w-120 {
+  width: 70rem;
+}
+
+.w-30 {
+  width: 30rem;
+}
+
+.dark-bg {
+  background: #262522;
+}
+
+.dark-light-bg {
+  background: #383531;
 }
